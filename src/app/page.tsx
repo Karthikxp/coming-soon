@@ -33,7 +33,7 @@ export default function Home() {
          <Image src={Logo} alt="BlackGrid Logo" width={200} />
           <h1 className="title">BLACKGRID</h1>
           <p className="sub">COMING SOON</p>
-          <p className="contact">contact us at <a href="mailto:contact@blackgrid.in?subject=consultation">contact@blackgrid.in</a></p>
+          <p className="contact">Reach us out: <a href="mailto:contact@blackgrid.in?subject=consultation">contact@blackgrid.in</a></p>
         </div>
       </main>
     </>
