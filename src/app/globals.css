@@ -16,12 +16,7 @@ body {
 
 body {
   margin: 0;
-  background: radial-gradient(
-    60% 60% at 70% 20%,
-    #282828 0%,
-    #1f1f1f 45%,
-    #161616 100%
-  );
+  background-color: #161616;
   color: var(--ash);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
     Inter, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
@@ -58,6 +53,8 @@ body {
   display: grid;
   gap: 20px;
   justify-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .mark {
@@ -80,11 +77,18 @@ body {
   font-weight: 800;
   letter-spacing: 0.45em;
   text-indent: 0.45em;
-  font-size: clamp(20px, 4vw, 36px);
+  font-size: clamp(16px, 3vw, 28px);
 }
 .sub {
   color: var(--muted);
   letter-spacing: 0.35em;
   text-indent: 0.35em;
   font-size: 12px;
+}
+.contact a {
+  color: white;
+  text-decoration: underline;
+}
+.contact a:hover {
+  text-decoration: underline;
 }
